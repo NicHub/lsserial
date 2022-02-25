@@ -1,17 +1,10 @@
 """
-Coucou
 
 lsserial.py
 
-Changement 1
-Changement 2
-Changement 3
-Changement 4
-Changement 5
-Changement 6
-Changement 7
-Changement 8
-
+This script lists the serial devices connected in verbose and summarized lists.
+It is tested on Python3 only.
+If you prefer a single line command, there are some alternatives below.
 
 # Prerequisites
 pip install pyserial
@@ -30,8 +23,6 @@ alias lsserial_b='ls -1 /dev/tty* | grep tty[A-Z] | grep -v -e Bluetooth -e Jabr
 
 # Ubuntu & Raspberry Pi OS serial diagnostic with this command
 dmesg
-
-Ceci est une modification.
 
 """
 
